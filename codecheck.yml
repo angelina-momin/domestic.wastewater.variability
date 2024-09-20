@@ -2,43 +2,33 @@
 version: https://codecheck.org.uk/spec/config/1.0
 
 paper:
-  title: >
-    The principal components of natural images
+  title: Modeling spatiotemporal domestic wastewater variability: Implications for measuring treatment efficiency
   authors:
-    - name: Peter J. B. Hancock
-    - name: Roland J. Baddeley
-    - name: Leslie S. Smith
-      ORCID: 0000-0002-3716-8013
-  reference: >
-    Network (1992) 3:61-70
-    http://pdfs.semanticscholar.org/7dcf/a42cfe3b59becb441844b72558b361693608.pdf
+    - name: Néstor DelaPaz-Ruíz
+      ORCID: 0000-0002-8941-4677
+    - name: Ellen-Wien Augustijn
+      ORCID: 0000-0002-3389-7585
+    - name: Mahdi Farnaghi
+      ORCID: 0000-0002-3071-5563
+    - name: Raul Zurita-Milla
+      ORCID: 0000-0002-1769-6310
+  reference: https://doi.org/10.1016/j.jenvman.2023.119680
 
 manifest:
-  - file: Figure2.png
-    comment: manuscript Figure 2
-  - file: Figure3.png
-    comment: manuscript Figure 3
-  - file: Figure4.png
-    comment: manuscript Figure 4
-  - file: Figure5.png
-    comment: manuscript Figure 5
+  - file: Figure5a.png
+    comment: manuscript Figure 5.a
+  - file: Figure5b.png
+    comment: manuscript Figure 5.b
   - file: Figure6.png
     comment: manuscript Figure 6
-  - file: Figure7.png
-    comment: manuscript Figure 7
-  - file: Figure8.png
-    comment: manuscript Figure 8
 
 codechecker:
   - name: Stephen J. Eglen
     ORCID: 0000-0001-8607-8025
-  - name: Daniel Nüst
-    ORCID: 0000-0002-0024-5046
 
 summary: >
-  Matlab code written by Iain Davies to reproduce original
-  paper; natural images provided by Peter Hancock.
-repository: https://github.com/codecheckers/Reproduction-Hancock
-check_time: "2020-04-13 10:00:00"
-certificate: 2020-XYZ
+  tbd
+repository: https://github.com/codecheckers/domestic.wastewater.variability/
+check_time: "2020-05-21 10:00:00"
+certificate: 2024-002
 report: https://doi.org/10.5281/zenodo.FIXME
